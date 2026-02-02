@@ -1,0 +1,3 @@
+-  a traditional algorithm
+-  based on the reflection model
+-  is a linear method
