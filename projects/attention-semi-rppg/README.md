@@ -1,19 +1,36 @@
 # Attention-guided Semi-supervised rPPG
 
-## Overview
-This project investigates attention mechanisms
-for robust semi-supervised heart rate estimation
-from facial videos.
+## Paper
+This repository contains the official implementation of our rPPG framework.
 
-## Key Contributions
-- ROI-guided attention focusing on smooth skin regions
-- Online pseudo-label learning
-- Cross-domain robustness evaluation
+## Environment
 
-## Planned Experiments
-- VIPL-HR
-- UBFC-rPPG
-- Cross-dataset testing
+Python 3.9  
+PyTorch 2.0  
 
-## Status
-Under development.
+Install dependencies:
+
+`pip install -r requirements.txt`
+
+
+## Dataset Preparation
+
+Please follow instructions in:
+datasets/dataset_instructions.md
+
+## Training
+
+`bash scripts/train_vipl.sh`
+
+
+## Testing
+
+`bash scripts/test_vipl.sh`
+
+
+## Reproducing Results
+
+All reported results in the paper can be reproduced
+using provided config files under `configs/`.
+
+
